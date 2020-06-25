@@ -41,6 +41,10 @@ class Song
     @@all.sort_by{|n| n.name}   
   end   
 
+  def self.new_from_filename(file_format)
+    
+  
+  end 
 
 end
 
