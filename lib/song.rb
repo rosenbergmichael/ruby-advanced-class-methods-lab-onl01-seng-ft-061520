@@ -49,6 +49,7 @@ class Song
     song_name = parts[1].gsub(".mp3", "")
   
     song = self.new 
+    song.name = song_name 
     
   end 
 
