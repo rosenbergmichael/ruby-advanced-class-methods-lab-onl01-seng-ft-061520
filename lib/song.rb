@@ -41,14 +41,18 @@ class Song
     @@all.sort_by{|n| n.name}   
   end   
 
+ 
+ 
   def self.new_from_filename(filename)
   
   end 
 
 
+
   def self.create_from_filename(filename)
     
   end 
+  
   
   
   def self.destroy_all 
